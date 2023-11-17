@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bck7.png'); /* Ganti 'background.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center top ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px; /* Sesuaikan lebar container sesuai kebutuhan */
+    margin: 50px auto; /* Menempatkan container di tengah halaman */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang semi-transparan */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk container */
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 10px;
+    color: #333; /* Warna teks untuk form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Warna teks untuk label */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

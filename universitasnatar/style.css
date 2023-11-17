@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('baclk.png'); /* Ganti 'background.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center top 50px;;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Pusatkan isi sel */
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
